@@ -1,0 +1,11 @@
+name: omnirepo-example
+
+targets:
+  - foo
+  - bar
+  - baz
+
+# remoteCache:
+#   enabled: true
+#   bucket: "my-bucket"
+#   table: "my-table"

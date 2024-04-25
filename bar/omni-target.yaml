@@ -1,0 +1,8 @@
+workspaceAssets:
+  - omni-workspace.yaml
+
+pipeline:
+  test:
+    command: 'echo "running bar command"'
+    includes:
+      - "omni-target.yaml"

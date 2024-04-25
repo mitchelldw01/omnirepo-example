@@ -1,0 +1,14 @@
+dependencies:
+  - bar
+  - baz
+
+workspaceAssets:
+  - omni-workspace.yaml
+
+pipeline:
+  test:
+    command: 'echo "running foo command"'
+    dependsOn:
+      - "^test"
+    includes:
+      - "omni-target.yaml"
